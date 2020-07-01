@@ -1,0 +1,1199 @@
+{
+    "dataset" : {
+      "id" : "qald-9-train-multilingual"
+    },
+    "questions" : [ {
+    "id" : "1",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Liste alle Brettspiele von GMT. ",
+      "keywords" : "Brettspiel ,  GMT"
+    }, {
+      "language" : "ru",
+      "string" : "Список все настольные игры от ВРЕМЯ ПО ГРИНВИЧУ. ",
+      "keywords" : "настольная игра ,  время по Гринвичу "
+    }, {
+      "language" : "pt",
+      "string" : "Lista todos jogos de tabuleiro de GMT. ",
+      "keywords" : "jogo de tabuleiro ,  GMT "
+    }, {
+      "language" : "en",
+      "string" : "List all boardgames by GMT.",
+      "keywords" : "boardgame, GMT"
+    }, {
+      "language" : "hi_IN",
+      "string" : "जीएमटी द्वारा सभी बोर्ड गेम सूचीबद्ध करें।",
+      "keywords" : "विशेष प्रकार के बोर्ड या पट्टे के खेल जैसे शतरंज, साँप सीढ़ी आदि, जीएमटी"
+    }, {
+      "language" : "fa",
+      "string" : "همه بازی های تخته ای GMT را لیست کن",
+      "keywords" : "  بازی تخته,    GMT"
+    }, {
+      "language" : "it",
+      "string" : "Elenco tutti giochi da tavolo di GMT. ",
+      "keywords" : "gioco da tavolo ,  GMT "
+    }, {
+      "language" : "fr",
+      "string" : "liste tout jeux de plateau par GMT. ",
+      "keywords" : "jeu de plateau ,  GMT "
+    }, {
+      "language" : "ro",
+      "string" : "Listă toate jocuri de masă de GMT. ",
+      "keywords" : "jocuri pe ,  GMT "
+    }, {
+      "language" : "es",
+      "string" : "Lista todas juegos de mesa por GMT. ",
+      "keywords" : "juego de mesa ,  GMT "
+    }, {
+      "language" : "nl",
+      "string" : "Lijst alle bordspellen door GMT. ",
+      "keywords" : "bordspel ,  GMT "
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT ?uri WHERE { ?uri dbo:publisher res:GMT_Games }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Washington's_War"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Fields_of_Fire_(game)"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Commands_&_Colors:_Ancients"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/A_World_At_War"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Sword_of_Rome"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Twilight_Struggle"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Paths_of_Glory_(board_game)"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Chandragupta_(board_game)"
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "id" : "2",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Wer entwickelt Skype? ",
+      "keywords" : "entwickeln ,  Skype "
+    }, {
+      "language" : "ru",
+      "string" : "Кто развитая Skype? ",
+      "keywords" : "развивать ,  Skype "
+    }, {
+      "language" : "pt",
+      "string" : "Quem desenvolvido Skype? ",
+      "keywords" : "desenvolve ,  Skype "
+    }, {
+      "language" : "en",
+      "string" : "Who developed Skype?",
+      "keywords" : "develop, Skype"
+    }, {
+      "language" : "hi_IN",
+      "string" : "स्काइप किसने विकसित किया?",
+      "keywords" : "विकसित करना ,  स्काइप "
+    }, {
+      "language" : "fa",
+      "string" : "توسعه دهنده اسکایپ کیست؟",
+      "keywords" : "  توسعه,    اسکایپ"
+    }, {
+      "language" : "it",
+      "string" : "Chi sviluppato Skype? ",
+      "keywords" : "sviluppare ,  Skype "
+    }, {
+      "language" : "fr",
+      "string" : "Qui développé Skype? ",
+      "keywords" : "développer ,  Skype "
+    }, {
+      "language" : "ro",
+      "string" : "Care dezvoltat Skype? ",
+      "keywords" : "dezvolta ,  Skype "
+    }, {
+      "language" : "es",
+      "string" : "Quien desarrollado Skype? ",
+      "keywords" : "desarrollar ,  Skype "
+    }, {
+      "language" : "nl",
+      "string" : "Wie ontwikkelde Skype? ",
+      "keywords" : "ontwikkelen ,  Skype "
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT ?uri WHERE { res:Skype dbo:developer ?uri. }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Microsoft"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Skype_Technologies"
+          }
+        } ]
+      }
+    } ]
+  },{
+    "id" : "28",
+    "answertype" : "number",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Wie tief ist Lake Placid?",
+      "keywords" : "Lake Placid, Tiefe"
+    }, {
+      "language" : "ru",
+      "string" : "Как глубоко является Озеро Плэсиде? ",
+      "keywords" : "Озеро безмятежный ,  глубина "
+    }, {
+      "language" : "pt",
+      "string" : "Como profundo é Lago Placid ",
+      "keywords" : "Lago Plácido ,  profundidade "
+    }, {
+      "language" : "en",
+      "string" : "How deep is Lake Placid?",
+      "keywords" : "Lake Placid, depth"
+    }, {
+      "language" : "hi_IN",
+      "string" : "झील प्लेसिड कितना गहरा है?",
+      "keywords" : "झील प्लेसिड, गहराई"
+    }, {
+      "language" : "fa",
+      "string" : "عمق دریاچه پالاسید جقدر است؟",
+      "keywords" : "دریاچه پالاسید, عمق"
+    }, {
+      "language" : "it",
+      "string" : "Quanto è profondo il Lake Placid?",
+      "keywords" : "Lake Placid, profondità"
+    }, {
+      "language" : "fr",
+      "string" : "Quelle est la profondeur du lac Placid?",
+      "keywords" : "profondeur, lac Placid"
+    }, {
+      "language" : "ro",
+      "string" : "Cât de adânc este lacul Placid?",
+      "keywords" : "lacul Placid, adânc"
+    }, {
+      "language" : "es",
+      "string" : "Cómo de hondo es el Lago Placid?",
+      "keywords" : "Lago Placid, profundidad"
+    }, {
+      "language" : "nl",
+      "string" : "Hoe diep is Lake Placid?",
+      "keywords" : "Lake Placid, diepte"
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> SELECT DISTINCT ?n WHERE { <http://dbpedia.org/resource/Lake_Placid_(Texas)> dbo:maximumDepth ?n }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "c" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "c" : {
+            "type" : "literal",
+            "value" : "12.192"
+          }
+        } ]
+      }
+    } ]
+  }, 
+  {
+    "id" : "3",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : false,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Welche Menschen wurden geboren im Heraklion? ",
+      "keywords" : "Menschen ,  geboren ,  Heraklion "
+    }, {
+      "language" : "ru",
+      "string" : "Который люди мы Родился в Ираклион? ",
+      "keywords" : "люди ,  Родился ,  ираклион "
+    }, {
+      "language" : "pt",
+      "string" : "Qual pessoas estavam nascermos dentro Heraklion? ",
+      "keywords" : "pessoas ,  nascermos ,  heraklion "
+    }, {
+      "language" : "en",
+      "string" : "Which people were born in Heraklion?",
+      "keywords" : "people, born, heraklion"
+    }, {
+      "language" : "hi_IN",
+      "string" : "हेराक्लिओन में कौन से लोग पैदा हुए थे?",
+      "keywords" : "लोग, उत्पन्न होने वाली, हेराक्लिओन"
+    }, {
+      "language" : "fa",
+      "string" : "چه کسایی در هراکلیون به دنیا آمده اند؟",
+      "keywords" : "  مردم,    بدنیا آمدن,    هرکلیون"
+    }, {
+      "language" : "it",
+      "string" : "Quale persone erano Nato in Candia? ",
+      "keywords" : "persone ,  Nato ,  heraklion "
+    }, {
+      "language" : "fr",
+      "string" : "Lequel gens étaient née dans Héraklion? ",
+      "keywords" : "gens ,  née ,  Héraklion "
+    }, {
+      "language" : "ro",
+      "string" : "Care oameni au fost născut în Heraklion? ",
+      "keywords" : "oameni ,  născut ,  heraklion "
+    }, {
+      "language" : "es",
+      "string" : "Cual gente fueron nacido en Heraklion? ",
+      "keywords" : "gente ,  nacido ,  heraklion "
+    }, {
+      "language" : "nl",
+      "string" : "Welke mensen waren geboren in Heraklion? ",
+      "keywords" : "mensen ,  geboren ,  heraklion "
+    } ],
+    "query" : {
+      "sparql" : "PREFIX yago: <http://dbpedia.org/class/yago/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX onto: <http://dbpedia.org/ontology/> SELECT DISTINCT ?uri WHERE { ?uri rdf:type onto:Person ; onto:birthPlace <http://dbpedia.org/resource/Heraklion>. }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Kapsetaki_duo"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Gianna_Angelopoulos-Daskalaki"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Lefteris_Gialousis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Elia_del_Medigo"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Christoforos_Papakaliatis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Meletius_I_Pegas"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Ilya_Livykou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Maria_Spiridaki"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Minas_Pitsos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Stefanoudakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Dimitris_Raptakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Michael_Katehakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Fotis_Kafatos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Odysseas_Elytis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Antonis_Bourselis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Stiliani_Pilatou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Stavros_Labrakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Moniakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/El_Greco"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Andreas_Musalus"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Androulakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Labros_Kefaloukos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Saliakas"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Ieroklis_Stoltidis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Yannis_Markopoulos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Georgios_Sarris"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Kefalogiannis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Cyril_Lucaris__Hieromartyr_Cyril_Lucaris__1"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Beata_Kitsikis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Leonidas_Kyrkos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Argyro_Strataki"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Michael_Koukoulakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Anastasios_Triantafyllou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Maria_Papapetros"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Francisco_Leontaritis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Janus_Plousiadenos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Cyril_Lucaris"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Notis_Sfakianakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Albi_Alla"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Tzanakakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nektarios_Tavernarakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Christos_Saloustros"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Kazantzakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Christoforos_Liontakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Romylos_Kedikoglou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nadia_Valavani"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Lena_Platonos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikonas_Spiliotakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Michalis_Sifakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Christos_Kozyrakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Giannis_Domatas"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Giorgos_Grammatikakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Charalampos_Damianakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Chrysovalantis_Kozoronis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Apelles_of_Heraklion"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Rhea_Galanaki"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Konstanty_Korniakt"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Stephanos_Sahlikis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Rasoulis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Joseph_Sifakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Konstantinos_Gouvis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Konstantinos_Volanakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Zacharias_Kavousakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Lili_Zografou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/İbrahim_Senil"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Iosif_Daskalakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Spyros_Danellis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Angelos_Akotantos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Joseph_Solomon_Delmedigo"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Abraham_III_of_Armenia"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Georgios_Kalaitzakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nicholas_Kalliakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Andreas_Ritzos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Marinakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Machlas"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Sapfo_Notara"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Elli_Alexiou"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Roubakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Ntinos_Konstantakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Papadrakakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Theophanes_the_Cretan"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Dimitrios_Kiliaras"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Giannis_Vardinogiannis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Karelis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Georgios_Samaras"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Michail_Fragoulakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Greg_Massialas"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Rika_Dialina"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Michael_Damaskinos"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Giorgos_Giakoumakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nikos_Kousidis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Francesco_Barozzi"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Aristeidis_Stergiadis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Georges_Panayotis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Andreas_Bouchalakis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Manolis_Rovithis"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Peter_Diamandopoulos"
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "id" : "4",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Im welche US Zustand ist Bereich 51 gelegen? ",
+      "keywords" : "Bereich 51 ,  gelegen ,  US Zustand "
+    }, {
+      "language" : "ru",
+      "string" : "В который У.С. государство является Площадь 51 располагается? ",
+      "keywords" : "Площадь 51 ,  располагается ,  У.С. государство "
+    }, {
+      "language" : "pt",
+      "string" : "Dentro qual EUA Estado é Área 51 localizado? ",
+      "keywords" : "Área 51 ,  localizado ,  EUA Estado "
+    }, {
+      "language" : "en",
+      "string" : "In which U.S. state is Area 51 located?",
+      "keywords" : "Area 51, located, U.S. state"
+    }, {
+      "language" : "hi_IN",
+      "string" : "यू.एस. के किस राज्य में क्षेत्र 51 स्थित है?",
+      "keywords" : "क्षेत्र 51 ,  स्थित ,  अमेरिका राज्य "
+    }, {
+      "language" : "fa",
+      "string" : "ناحیه ۵۱ در کدام ایالت آمریکا قرار دارد؟",
+      "keywords" : "  51  ناحیه,    واقع شده,    ایالت آمریکا"
+    }, {
+      "language" : "it",
+      "string" : "In quale Stati Uniti stato è La zona 51 si trova? ",
+      "keywords" : "La zona 51 ,  collocato ,  Stati Uniti stato "
+    }, {
+      "language" : "fr",
+      "string" : "Dans lequel US Etat est Région 51 situé? ",
+      "keywords" : "Région 51 ,  situé ,  US Etat "
+    }, {
+      "language" : "ro",
+      "string" : "În care SUA stat este Zonă 51 situat? ",
+      "keywords" : "Zonă 51 ,  situat ,  SUA stat "
+    }, {
+      "language" : "es",
+      "string" : "En cual Nosotros estado es Zona 51 ¿situado? ",
+      "keywords" : "Zona 51 ,  situado ,  Nosotros estado "
+    }, {
+      "language" : "nl",
+      "string" : "In welke US staat is Gebied 51 gelegen? ",
+      "keywords" : "Gebied 51 ,  gelegen ,  US staat "
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT ?uri WHERE { res:Area_51 dbo:location ?uri . ?uri dbo:country res:United_States. }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Nevada"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Lincoln_County,_Nevada"
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "id" : "5",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Wer ist der Bürgermeister von New York City?",
+      "keywords" : "New York City, Bürgermeister"
+    }, {
+      "language" : "ru",
+      "string" : "Кто является  мэр из новый Йорк Город? ",
+      "keywords" : "новый Йорк город ,  мэр "
+    }, {
+      "language" : "pt",
+      "string" : "Quem é a prefeito do Novo Iorque Cidade? ",
+      "keywords" : "Novo Iorque Cidade ,  prefeito "
+    }, {
+      "language" : "en",
+      "string" : "Who is the mayor of New York City?",
+      "keywords" : "New York City, mayor"
+    }, {
+      "language" : "hi_IN",
+      "string" : "न्यूयॉर्क शहर के महापौर कौन हैं?",
+      "keywords" : "न्यूयॉर्क शहर, महापौर"
+    }, {
+      "language" : "fa",
+      "string" : "شهردار شهر نیویورک کیست؟  ",
+      "keywords" : "  شهر  نیویورک,    شهردار"
+    }, {
+      "language" : "it",
+      "string" : "Chi è il sindaco della città di New York?",
+      "keywords" : "città di New York, sindaco"
+    }, {
+      "language" : "fr",
+      "string" : "Qui est le maire de New York City?",
+      "keywords" : "maire, New York City"
+    }, {
+      "language" : "ro",
+      "string" : "Care este  primar de Nou York Oraș? ",
+      "keywords" : "Nou York Oraș ,  primar "
+    }, {
+      "language" : "es",
+      "string" : "¿Quién es el alcalde de la cuidad de Nueva York?",
+      "keywords" : "cuidad de Nueva York, alcalde"
+    }, {
+      "language" : "nl",
+      "string" : "Wie is de burgemeester van New York?",
+      "keywords" : "burgemeester, New York"
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> SELECT DISTINCT ?uri WHERE { res:New_York_City dbo:leaderName ?uri }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Bill_de_Blasio"
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "id" : "6",
+    "answertype" : "resource",
+    "aggregation" : true,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "In welchen Ländern gibt es Orte mit mehr als zwei Höhlen?",
+      "keywords" : "Land, Ort, Höhle, mehr als zwei"
+    }, {
+      "language" : "ru",
+      "string" : "Который страны иметь мест с Больше чем два пещеры? ",
+      "keywords" : "страна ,  место ,  пещера ,  Больше чем два "
+    }, {
+      "language" : "pt",
+      "string" : "Qual paises ter locais com Mais do que dois cavernas? ",
+      "keywords" : "país ,  Lugar,  colocar ,  caverna ,  Mais do que dois "
+    }, {
+      "language" : "en",
+      "string" : "Which countries have places with more than two caves?",
+      "keywords" : "country, place, cave, more than two"
+    }, {
+      "language" : "hi_IN",
+      "string" : " किन देशों में दो से अधिक गुफाएं हैं?",
+      "keywords" : "देश, जगह, गुफा, दो से अधिक"
+    }, {
+      "language" : "fa",
+      "string" : " چه کشورهایی مکان هایی با بیش از دو غار دارند؟",
+      "keywords" : "  کشور,    مکان,    غار,   بیش از دو"
+    }, {
+      "language" : "it",
+      "string" : "Quali nazioni hanno luoghi con più di due grotte?",
+      "keywords" : "nazione, luogo, grotta, più di due"
+    }, {
+      "language" : "fr",
+      "string" : "Quels pays ont des lieux avec plus de deux grottes?",
+      "keywords" : "pays, lieux, grottes, plus de deux"
+    }, {
+      "language" : "ro",
+      "string" : "Care țări avea locuri cu Mai Mult decât Două peșteri? ",
+      "keywords" : "țară ,  loc ,  peşteră ,  Mai Mult decât Două "
+    }, {
+      "language" : "es",
+      "string" : "¿Qué países tienen lugares con más de dos cuevas?",
+      "keywords" : "país, lugar, cuevas, más de dos"
+    }, {
+      "language" : "nl",
+      "string" : "Welke landen hebben plaatsen met meer dan twee grotten?",
+      "keywords" : "land, plaatsen, grotten, meer dan twee"
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT DISTINCT ?uri WHERE { ?cave rdf:type dbo:Cave ; dbo:location ?uri . ?uri rdf:type dbo:Country } GROUP BY ?uri HAVING ( COUNT(?cave) > 2 )"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/India"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Philippines"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Japan"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Greece"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Spain"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Turkey"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Vietnam"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/United_States"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Australia"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Italy"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Republic_of_Ireland"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Venezuela"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Mexico"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Georgia_(country)"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Austria"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Germany"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Slovenia"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Gibraltar"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Serbia"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/France"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Abkhazia"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Jamaica"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/China"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/South_Africa"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Brazil"
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Azerbaijan"
+          }
+        } ]
+      }
+    } ]
+  }, {
+    "id" : "7",
+    "answertype" : "resource",
+    "aggregation" : false,
+    "onlydbo" : true,
+    "hybrid" : false,
+    "question" : [ {
+      "language" : "de",
+      "string" : "Woher hat getan Abraham Lincoln die? ",
+      "keywords" : "Abraham Lincoln ,  die "
+    }, {
+      "language" : "ru",
+      "string" : "где сделал Авраам Линкольн ? ",
+      "keywords" : "Авраам Линкольн ,   "
+    }, {
+      "language" : "pt",
+      "string" : "Onde fez Abraão Lincoln o? ",
+      "keywords" : "Abraão Lincoln ,  o "
+    }, {
+      "language" : "en",
+      "string" : "Where did Abraham Lincoln die?",
+      "keywords" : "Abraham Lincoln, die"
+    }, {
+      "language" : "hi_IN",
+      "string" : "अब्राहम लिंकन का देहांत कहा हुआ था? ",
+      "keywords" : "अब्राहम लिंकन, देहांत"
+    }, {
+      "language" : "fa",
+      "string" : "آبراهام لینکلن در کجا فوت کرد؟",
+      "keywords" : " آبراهام لینکلن,    "
+    }, {
+      "language" : "it",
+      "string" : "Dove fatto Abraham Lincoln il? ",
+      "keywords" : "Abraham Lincoln ,  il "
+    }, {
+      "language" : "fr",
+      "string" : "Où fait Abraham Lincoln le? ",
+      "keywords" : "Abraham Lincoln ,  la "
+    }, {
+      "language" : "ro",
+      "string" : "Unde făcut Avraam Lincoln ? ",
+      "keywords" : "Avraam Lincoln ,   "
+    }, {
+      "language" : "es",
+      "string" : "Dónde hizo Abrahán Lincoln el? ",
+      "keywords" : "Abrahán Lincoln ,  la "
+    }, {
+      "language" : "nl",
+      "string" : "Waar deed Abraham Lincoln het? ",
+      "keywords" : "Abraham Lincoln ,  de "
+    } ],
+    "query" : {
+      "sparql" : "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX res: <http://dbpedia.org/resource/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT DISTINCT ?uri WHERE { res:Abraham_Lincoln dbo:deathPlace ?uri. }"
+    },
+    "answers" : [ {
+      "head" : {
+        "vars" : [ "uri" ]
+      },
+      "results" : {
+        "bindings" : [ {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Washington,_D.C."
+          }
+        }, {
+          "uri" : {
+            "type" : "uri",
+            "value" : "http://dbpedia.org/resource/Petersen_House_(Washington,_D.C.)"
+          }
+        } ]
+      }
+    } ]
+  }
+]
+}
